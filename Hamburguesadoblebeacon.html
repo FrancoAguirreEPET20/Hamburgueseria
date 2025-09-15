@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburguesa simple beacon</title>
+    <link srel="stylesheet" href="hamburguesadoblebeacon.css">
 </head>
 <body>
     <header>
@@ -13,24 +14,20 @@
     <ul>
         <li><a href="inicio index.html">Inicio</a></li>
         <li><a href="Hamburguesas.html">Hamburguesas</a></li>
-        <li><a href="#">Papas Fritas</a></li>
+        <li><a href="Papas.html">Papas Fritas</a></li>
         <li><a href="Bebidas.html">Bebidas</a></li>
         <li><a href="#">Mi carrito</a></li>
     </ul>
     </nav>
     </header>
-    <div>
-        <div>
-
-            <section>
-                <nav>
+    <div class="grid-container">
+        <div class="card">
                     <img src="imagenes/doble beacon.jpeg" height="300" width="300">
-                </nav>
                 <h1>Doble Egg Bacon</h1>
                 <div>★★★★★ 4,8</div>
                 <h2>$4000</h2>
                 <h4>Ingredientes:</h4>
-                <ul>
+                <ul class="ingredientes">
                     <li>Pan con semillas de sesamo</li>
                     <li>Una capa de queso</li>
                     <li>Dos hamburguesas de carne a la parrilla</li>
@@ -38,10 +35,12 @@
                     <li>Huevo frito</li>
                     <li>Pan con semillas de sesamo</li>
                 </ul>
-            </section>
         </div>
-        <button>Comprar Ahora</button>
-        <button>Agregar al carrito</button>
+        <button class="btn btn-comprar">Comprar Ahora</button>
+        <button class="btn btn-carrito">Agregar al carrito</button>
     </div>
+    <footer>
+        © 2025 Hamburguesas Neuquén
+    </footer>
 </body>
 </html>
