@@ -15,4 +15,9 @@ header {
   color: #ebe4e4;
   padding: 20px 30px;
 }
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 }
