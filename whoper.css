@@ -31,3 +31,6 @@ header ul li a {
     font-weight: bold;
     transition: 0.3s;
 }
+header ul li a:hover {
+    color: #ffcc00;
+}
