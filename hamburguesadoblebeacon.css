@@ -38,3 +38,9 @@ nav ul li a {
     color: white;
     font-weight: bold;
 }
+
+.ingredientes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
