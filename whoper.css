@@ -86,3 +86,6 @@ section a {
     border-radius: 8px;
     transition: background 0.3s;
 }
+section a:hover {
+    background: #e6b800;
+}
