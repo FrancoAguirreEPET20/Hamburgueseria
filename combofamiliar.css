@@ -49,4 +49,12 @@ header {
   justify-content: center;
   padding: 40px;
 }
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(153, 76, 76, 0.1);
+}
 }
