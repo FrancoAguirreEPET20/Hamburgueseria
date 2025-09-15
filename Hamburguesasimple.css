@@ -81,3 +81,22 @@ section nav img {
 .Comprar button:active {
   transform: scale(0.96);
 }
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  section nav img {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .Comprar {
+    text-align: left;
+    width: 100%;
+  }
+}
