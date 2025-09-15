@@ -20,4 +20,10 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 }
