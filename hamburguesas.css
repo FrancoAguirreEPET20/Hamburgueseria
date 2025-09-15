@@ -67,3 +67,6 @@ body {
   transition: background 0.25s ease, transform 0.08s ease;
   margin-top: 8px;
 }
+
+.boton-ver:hover { background: #333; }
+.boton-ver:active { transform: scale(0.97); }
