@@ -35,3 +35,6 @@ a.btn {
   color: #fff;
   transition: background 0.2s;
 }
+a.btn:hover {
+  background: #333;
+}
