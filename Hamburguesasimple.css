@@ -1,0 +1,102 @@
+@import url(style.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section nav img {
+  width: 380px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.Comprar {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.Comprar h1 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.precio p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.descripcion h4 {
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+.descripcion ul {
+  padding-left: 20px;
+}
+
+.descripcion ul li {
+  margin-bottom: 6px;
+}
+
+.Comprar button {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.Comprar button:hover {
+  background: #444;
+}
+
+.Comprar button:active {
+  transform: scale(0.96);
+}
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  section nav img {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .Comprar {
+    text-align: left;
+    width: 100%;
+  }
+}

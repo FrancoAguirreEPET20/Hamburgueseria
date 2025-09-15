@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fffaf0;
+    color: #333;
+}
+
+header {
+    background-color: #ff6600;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.ingredientes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;     
+    max-width: 200px; 
+    height: auto;     
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #ff3300;
+}
+
+.card div {
+    color: #ffcc00;
+    margin-bottom: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-comprar {
+    background-color: #ff3300;
+    color: white;
+}
+
+
+.btn-carrito {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
