@@ -55,3 +55,15 @@ body {
   color: #e74c3c;
   margin-bottom: 10px;
 }
+
+.boton-ver {
+  display: block;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: background 0.25s ease, transform 0.08s ease;
+  margin-top: 8px;
+}
