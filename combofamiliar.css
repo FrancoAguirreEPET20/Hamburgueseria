@@ -86,5 +86,7 @@ header {
   margin: 15px auto;
   max-width: 300px;
 }
-
+.ingredientes li {
+  margin: 5px 0;
+}
 }
