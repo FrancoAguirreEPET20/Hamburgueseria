@@ -29,3 +29,7 @@ body {
   transition: transform 0.18s ease;
   min-height: 380px; 
 }
+
+.producto:hover {
+  transform: translateY(-6px);
+}
