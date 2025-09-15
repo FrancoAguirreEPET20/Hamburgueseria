@@ -25,3 +25,9 @@ nav img{
     width: 60px;
     border-radius: 50%;
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
