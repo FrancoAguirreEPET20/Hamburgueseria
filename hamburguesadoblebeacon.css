@@ -8,3 +8,8 @@ body {
     background-color: #fffaf0;
     color: #333;
 }
+
+header {
+    background-color: #ff6600;
+    padding: 15px;
+}
