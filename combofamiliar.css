@@ -44,4 +44,9 @@ header {
 .menu a:hover {
   opacity: 0.8;
 }
+.grid-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
 }
