@@ -41,4 +41,7 @@ header {
   font-weight: bold;
   transition: opacity 0.3s;
 }
+.menu a:hover {
+  opacity: 0.8;
+}
 }
