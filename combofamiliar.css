@@ -66,5 +66,10 @@ header {
   font-size: 1.6rem;
   margin-bottom: 10px;
 }
+.rating {
+  color: gold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
 
 }
