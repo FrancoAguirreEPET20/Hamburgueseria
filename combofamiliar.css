@@ -92,5 +92,13 @@ header {
 .acciones {
   margin-top: 20px;
 }
-
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
 }
