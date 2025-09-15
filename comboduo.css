@@ -9,3 +9,7 @@ header { background:#be2e2e; color:#ebe4e4; padding:20px 30px; }
 .menu { list-style:none; display:flex; gap:20px; }
 .menu a { text-decoration:none; color:#fcf1f1; font-weight:bold; transition:.3s; }
 .menu a:hover { opacity:.8; }
+
+.grid-container { display:flex; justify-content:center; padding:40px; }
+.card { background:#fff; border-radius:10px; padding:30px; max-width:500px; text-align:center; box-shadow:0 4px 10px rgba(0,0,0,.1); }
+.card img { width:220px; margin-bottom:15px; }
