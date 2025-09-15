@@ -70,3 +70,8 @@ section ul {
     padding: 0;
     list-style: disc;
 }
+section ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
