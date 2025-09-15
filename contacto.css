@@ -26,3 +26,12 @@ p {
   flex-wrap: wrap;
   justify-content: center;
 }
+a.btn {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+  transition: background 0.2s;
+}
