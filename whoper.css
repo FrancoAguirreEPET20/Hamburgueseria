@@ -18,3 +18,11 @@ header img {
     height: auto;
     border-radius: 10px;
 }
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
