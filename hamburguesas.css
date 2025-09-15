@@ -48,3 +48,10 @@ body {
   color: #222;
   min-height: 44px; 
 }
+
+.precio {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
