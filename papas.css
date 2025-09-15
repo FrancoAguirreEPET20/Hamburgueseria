@@ -59,3 +59,7 @@ button {
     cursor: pointer;
     font-weight: bold;
 }
+
+button:hover {
+    background-color: #e6b800;
+}
