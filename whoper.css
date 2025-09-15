@@ -25,4 +25,9 @@ header ul {
     margin: 0;
     padding: 0;
 }
-
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
