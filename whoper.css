@@ -13,3 +13,8 @@ header nav {
     align-items: center;
     justify-content: space-between;
 }
+header img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
