@@ -24,3 +24,10 @@ header { background:#be2e2e; color:#ebe4e4; padding:20px 30px; }
 .ingredientes { list-style:none; text-align:left; margin:15px auto; max-width:300px; }
 .ingredientes li { margin:5px 0; }
 .acciones { margin-top:20px; }
+
+
+.btn { padding:10px 20px; margin:5px; border:none; border-radius:6px; font-weight:bold; cursor:pointer; transition:.3s; }
+.btn.comprar { background:#d62828; color:#fff; }
+.btn.comprar:hover { background:#0e0909; }
+.btn.carrito { background:#51c026; color:#000; }
+.btn.carrito:hover { background:#cac7bc; }
