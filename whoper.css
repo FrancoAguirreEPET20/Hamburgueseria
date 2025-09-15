@@ -4,3 +4,7 @@ body {
     background-color: #fff8f0;
     color: #333;
 }
+header {
+    background-color: #222;
+    padding: 10px 20px;
+}
