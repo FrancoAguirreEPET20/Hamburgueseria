@@ -8,3 +8,11 @@ body {
   color: #333;
   line-height: 1.6;
 }
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  align-items: start; /* importante: alinea el inicio de cada tarjeta */
+}
