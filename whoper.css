@@ -43,3 +43,10 @@ section {
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
     text-align: center;
 }
+section nav img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
