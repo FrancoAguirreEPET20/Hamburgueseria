@@ -51,3 +51,11 @@ section nav img {
   color: #444;
   font-size: 1.1rem;
 }
+
+.descripcion ul {
+  padding-left: 20px;
+}
+
+.descripcion ul li {
+  margin-bottom: 6px;
+}
