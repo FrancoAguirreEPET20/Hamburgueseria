@@ -10,4 +10,9 @@ body {
   background: hsl(40, 4%, 15%);
   color: #0a0404;
 }
+header {
+  background: #be2e2e;
+  color: #ebe4e4;
+  padding: 20px 30px;
+}
 }
