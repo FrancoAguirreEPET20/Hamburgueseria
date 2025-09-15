@@ -73,3 +73,11 @@ body {
     color: green;
     margin: 10px 0;
 }
+
+.btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
