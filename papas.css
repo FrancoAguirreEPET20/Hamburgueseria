@@ -5,3 +5,9 @@ body{
     padding: 0;
     text-align: center;
 }
+ h1{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 0;
+    color: #333;
+ }
