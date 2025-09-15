@@ -30,4 +30,9 @@ header {
   height: 60px;
   border-radius: 50%;
 }
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 }
