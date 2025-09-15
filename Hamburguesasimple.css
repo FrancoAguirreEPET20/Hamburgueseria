@@ -38,3 +38,10 @@ section nav img {
   font-size: 1.8rem;
   color: #222;
 }
+
+.precio p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
