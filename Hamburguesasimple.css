@@ -73,3 +73,11 @@ section nav img {
   margin-top: 20px;
   transition: background 0.3s ease, transform 0.1s ease;
 }
+
+.Comprar button:hover {
+  background: #444;
+}
+
+.Comprar button:active {
+  transform: scale(0.96);
+}
