@@ -71,5 +71,9 @@ header {
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
+.rating span {
+  color: #333;
+  font-weight: bold;
+}
 
 }
