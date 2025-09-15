@@ -17,3 +17,18 @@ section {
   max-width: 1100px;
   margin: 0 auto;
 }
+
+section nav img {
+  width: 380px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.Comprar {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
