@@ -41,3 +41,9 @@ body {
 .main-content {
     padding: 30px;
 }
+
+.grid-container {
+  display: flex;           
+  justify-content: center;
+  gap: 20px;               
+}
