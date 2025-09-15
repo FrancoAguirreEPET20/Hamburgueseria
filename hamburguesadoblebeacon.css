@@ -73,3 +73,8 @@ nav ul li a {
     margin-bottom: 5px;
     color: #ff3300;
 }
+
+.card div {
+    color: #ffcc00;
+    margin-bottom: 5px;
+}
