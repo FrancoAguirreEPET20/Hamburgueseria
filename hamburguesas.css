@@ -14,5 +14,18 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   padding: 20px;
-  align-items: start; /* importante: alinea el inicio de cada tarjeta */
+  align-items: start;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  padding: 12px;
+  transition: transform 0.18s ease;
+  min-height: 380px; 
 }
