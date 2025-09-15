@@ -54,3 +54,8 @@ section h1 {
     margin: 15px 0;
     color: #222;
 }
+section div {
+    font-size: 18px;
+    color: #ff8800;
+    margin-bottom: 20px;
+}
