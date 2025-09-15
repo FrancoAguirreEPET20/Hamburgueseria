@@ -81,3 +81,11 @@ body {
     padding: 10px 15px;
     border-radius: 8px;
 }
+
+.footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+}
