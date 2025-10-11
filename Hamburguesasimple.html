@@ -6,22 +6,29 @@
     <title>Hamburgueseria Neuquén</title>
 </head>
 <body>
-    <header>
+  <header>
     <nav class="nav">
       <div class="logo">
         <img src="imagenes/logo.jpeg" alt="LOGO">
         <h1>Hamburguesas Neuquen</h1> 
       </div>
 
-      <ul class="menu">
-        <li><a href="prototipo.html">Inicio</a></li>
-        <li><a href="Hamburguesas.html">Hamburguesas</a></li>
-        <li><a href="Papas.html">Papas Fritas</a></li>
-        <li><a href="Bebidas.html">Bebidas</a></li>
-        <li><a href="#">Mi carrito</a></li>
-      </ul>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-btn">&#9776;</label>
+
+      <div class="side-menu">
+        <label for="menu-toggle" class="close-btn">&times;</label>
+        <ul>
+          <li><a href="inicio index.html">Inicio</a></li>
+          <li><a href="Hamburguesas.html">Hamburguesas</a></li>
+          <li><a href="Papas.html">Papas Fritas</a></li>
+          <li><a href="Bebidas.html">Bebidas</a></li>
+          <li><a href="#">Mi carrito</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
+
   <section>
         <nav>
           <img src="imagenes/hamburguesasimple.png" alt="Imagen 1">
@@ -32,20 +39,23 @@
           <div class="precio">
             <p>$3500</p>
         </div>
-          <div class="descripcion">
-            <h4>Ingredientes</h4>
-            <ul>
-                <li>Pan con semillas de sésamo, tostado</li>
-                <li>Carne de res 100 %, cocida al fuego (flame-grilled)</li>
-                <li>Queso presente solo en la versión "cheeseburger"</li>
-                <li>Pepinillos estilo crinkle-cut, añadidos para textura y sabor</li>
-                <li>Salsas Ketchup y mostaza clásicos</li>
-            </ul>
-            </div>
+        <div class="descripcion">
+          <h4>Ingredientes</h4>
+          <ul>
+            <li>Pan con semillas de sésamo, tostado</li>
+            <li>Carne de res 100 %, cocida al fuego (flame-grilled)</li>
+            <li>Queso presente solo en la versión "cheeseburger"</li>
+            <li>Pepinillos estilo crinkle-cut, añadidos para textura y sabor</li>
+            <li>Salsas Ketchup y mostaza clásicos</li>
+          </ul>
         </div>
-        <button>Comprar ahora</button>
-    <footer>
-        Gracias por su atencion
-    </footer>
+      </div>
+      <button>Comprar ahora</button>
+    </aside>
+  </section>
+
+  <footer>
+    Gracias por su atención
+  </footer>
 </body>
 </html>
