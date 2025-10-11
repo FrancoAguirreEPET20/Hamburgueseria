@@ -50,8 +50,18 @@ section nav img {
     width: 100%;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.39);
     margin-bottom: 20px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+section nav img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.39);
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
 }
 section h1 {
     margin: 15px 0;
