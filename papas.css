@@ -6,12 +6,6 @@ body{
     padding: 0;
     text-align: center;
 }
- h1{
-    background-color: #333;
-    padding: 20px;
-    margin: 0;
-    color: #ffcc00;
- }
 
  ul{
     list-style: none;
@@ -86,3 +80,6 @@ nav img:hover {
   transform: translateY(0);  
   transition: opacity 0.5s ease, transform 0.5s ease;  
 }  
+.resaltar:hover {  
+  box-shadow: 0 0 25px rgba(255, 204, 0, 0.9);  
+}
