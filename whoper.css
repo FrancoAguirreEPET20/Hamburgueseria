@@ -96,3 +96,6 @@ section a:hover {
     background-color: #fff2a8;
     transition: background-color 0.5s;
 }
+.mostrar.visible {
+    opacity: 1;
+}
