@@ -103,3 +103,7 @@ section a:hover {
 .mostrar.visible {
     opacity: 1;
 }
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(235, 109, 5, 0.887);
+}
