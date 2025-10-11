@@ -70,6 +70,9 @@ nav img:hover {
   opacity: 0.9;  
   box-shadow: 0px 6px 15px rgba(255, 204, 0, 0.822); 
 }  
+.animar {  
+  transition: all 0.5s ease-in-out;  
+}  
 .mostrar {  
   opacity: 1;  
   transform: translateY(0);  
