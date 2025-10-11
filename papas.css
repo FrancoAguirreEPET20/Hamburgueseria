@@ -64,6 +64,8 @@ button {
 
 button:hover {
     background-color: #e6b800;
+     transform: scale(1.1);  
+  box-shadow: 0px 4px 10px rgba(252, 248, 4, 0.483);
 }
 nav img:hover {  
   transform: scale(1.05);  
