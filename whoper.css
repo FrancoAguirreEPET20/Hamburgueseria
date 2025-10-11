@@ -5,20 +5,30 @@ body {
     background-color: #fff8f0;
     color: #333;
 }
+
 header {
     background-color: #222;
     padding: 10px 20px;
 }
+
 header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 header img {
     width: 120px;
     height: auto;
     border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
+
+header img:hover {
+    transform: scale(1.08);
+    opacity: 0.85;
+}
+
 header ul {
     list-style: none;
     display: flex;
@@ -26,33 +36,33 @@ header ul {
     margin: 0;
     padding: 0;
 }
+
 header ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    transition: 0.3s;
+    transition: color 0.3s, transform 0.3s;
 }
+
 header ul li a:hover {
     color: #ffcc00;
-     transform: scale(1.1);
+    transform: scale(1.1);
 }
+
 section {
     max-width: 800px;
     margin: 40px auto;
     background: white;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 10px rgba(235, 109, 5, 0.887);
     text-align: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-section nav img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.39);
-    margin-bottom: 20px;
-    transition: transform 0.4s ease, opacity 0.4s ease;
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(235, 109, 5, 0.887);
 }
 
 section nav img {
@@ -63,19 +73,29 @@ section nav img {
     margin-bottom: 20px;
     transition: transform 0.4s ease, opacity 0.4s ease;
 }
+
+section nav img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
 section h1 {
     margin: 15px 0;
     color: #222;
 }
+
+
 section div {
     font-size: 18px;
     color: #ff8800;
     margin-bottom: 20px;
 }
+
 section h4 {
     margin: 20px 0 10px;
     color: #444;
 }
+
 section ul {
     text-align: left;
     max-width: 400px;
@@ -83,11 +103,13 @@ section ul {
     padding: 0;
     list-style: disc;
 }
+
 section ul li {
     margin-bottom: 8px;
     font-size: 16px;
     color: #555;
 }
+
 section a {
     display: inline-block;
     margin: 10px 10px;
@@ -99,26 +121,47 @@ section a {
     border-radius: 8px;
     transition: background 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
 }
+
 section a:hover {
-    background: #e6b800;
+    background: #e6b800;
+    transform: scale(1.08);
+    opacity: 0.9;
 }
-.resaltar {
-    background-color: #fff2a8;
-    transition: background-color 0.5s;
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 1rem;
+    margin-top: 2rem;     
 }
-.mostrar {
-    opacity: 0;
-    transition: opacity 1s ease;
-}
+
+
 .animar {
     opacity: 0;
     transform: translateY(20px);
     animation: aparecer 0.8s ease forwards;
 }
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.resaltar {
+    background-color: #fff2a8;
+    transition: background-color 0.5s;
+}
+.resaltar:hover {
+    background-color: #ffe45c;
+}
+.mostrar {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
 .mostrar.visible {
     opacity: 1;
-}
-section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(235, 109, 5, 0.887);
 }
