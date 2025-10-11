@@ -1,85 +1,80 @@
 @import url(style.css);
-body{
-     font-family: Arial, sans-serif;
-    background-color: #fff8f0;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
 
- ul{
-    list-style: none;
-    margin: 0;
-    padding: 10px;
-    background-color:#333;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
- }
- ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
- }
- ul li a:hover{
-    color: #ffcc00;
- }
- h2{
-    margin: 20px 0;
-    color: #444;
- }
- nav img {
-    border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-    margin-top: 20px;
-     transition: transform 0.4s ease, opacity 0.3s ease, box-shadow 0.3s ease;
-}
-h3 {
-    margin-top: 10px;
-    color: #222;
-}
-div {
-    margin-bottom: 40px;
-}
-p {
-    font-size: 18px;
-    font-weight: bold;
-    color: #555;
-}
-button {
-    background-color: #ffcc00;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-}
+body {  
+  font-family: Arial, sans-serif;  
+  background-color: #fff8f0;  
+  margin: 0;  
+  padding: 0;  
+  text-align: center;  
+}  
 
-button:hover {
-    background-color: #e6b800;
-     transform: scale(1.1);  
-  box-shadow: 0px 4px 10px rgba(252, 248, 4, 0.483);
-}
+h2 {  
+  margin: 20px 0;  
+  color: #444;  
+}  
+
 nav img {  
   border-radius: 15px;  
   box-shadow: 0px 4px 8px rgba(0,0,0,0.2);  
   margin-top: 20px;  
   transition: transform 0.4s ease, opacity 0.3s ease, box-shadow 0.3s ease;
 }  
+
 nav img:hover {  
   transform: scale(1.05);  
   opacity: 0.9;  
-  box-shadow: 0px 6px 15px rgba(255, 204, 0, 0.822); 
+  box-shadow: 0px 6px 15px rgba(255, 204, 0, 0.822);
 }  
+
+h3 {  
+  margin-top: 10px;  
+  color: #222;  
+}  
+
+div {  
+  margin-bottom: 40px;  
+}  
+
+p {  
+  font-size: 18px;  
+  font-weight: bold;  
+  color: #555;  
+}  
+
+button {  
+  background-color: #ffcc00;  
+  border: none;  
+  padding: 10px 20px;  
+  border-radius: 8px;  
+  font-size: 16px;  
+  cursor: pointer;  
+  font-weight: bold;  
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}  
+
+button:hover {  
+  background-color: #e6b800;  
+  transform: scale(1.1);  
+  box-shadow: 0px 4px 10px rgba(252, 248, 4, 0.483);
+}  
+
 .animar {  
   transition: all 0.5s ease-in-out;  
 }  
+
 .mostrar {  
   opacity: 1;  
   transform: translateY(0);  
   transition: opacity 0.5s ease, transform 0.5s ease;  
 }  
+
+.resaltar {  
+  background-color: #fff3cd;  
+  border: 2px solid #ffcc00;  
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.6);  
+  transition: box-shadow 0.3s ease;  
+}  
+
 .resaltar:hover {  
   box-shadow: 0 0 25px rgba(255, 204, 0, 0.9);  
 }
