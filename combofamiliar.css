@@ -115,10 +115,12 @@
     cursor: pointer;
     margin: 5px;
     transition: 0.3s;
+    transition: background 0.3s ease, transform 0.3s ease;
   }
   .btn.comprar {
     background: #d62828;
     color: #fff;
+
   }
   .btn.comprar:hover {
     background: #0e0909;
