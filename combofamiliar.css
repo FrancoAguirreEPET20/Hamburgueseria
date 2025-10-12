@@ -1,112 +1,122 @@
 @import url(style.css);
-body{
-    *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: Arial, sans-serif;
-  background: hsl(40, 4%, 15%);
-  color: #0a0404;
-}
-header {
-  background: #be2e2e;
-  color: #ebe4e4;
-  padding: 20px 30px;
-}
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.logo img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-}
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-.menu a {
-  text-decoration: none;
-  color: #fcf1f1;
-  font-weight: bold;
-  transition: opacity 0.3s;
-}
-.menu a:hover {
-  opacity: 0.8;
-}
-.grid-container {
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-}
-.card {
-  background: #fff;
-  border-radius: 10px;
-  padding: 30px;
-  max-width: 500px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(153, 76, 76, 0.1);
-}
-.card img {
-  width: 220px;
-  margin-bottom: 15px;
-}
-.titulo {
-  color: #d62828;
-  font-size: 1.6rem;
-  margin-bottom: 10px;
-}
-.rating {
-  color: gold;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-.rating span {
-  color: #333;
-  font-weight: bold;
-}
-.precio {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-.ingredientes {
-  list-style: none;
-  text-align: left;
-  margin: 15px auto;
-  max-width: 300px;
-}
-.ingredientes li {
-  margin: 5px 0;
-}
-.acciones {
-  margin-top: 20px;
-}
-.btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-  margin: 5px;
-  transition: 0.3s;
-}
-.btn.comprar { background: #d62828; color: #fff; }
-.btn.comprar:hover { background: #0e0909; }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: hsl(40, 4%, 15%);
+    color: #0a0404;
+  }
+  header {
+    background: #be2e2e;
+    color: #ebe4e4;
+    padding: 20px 30px;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+     transition: transform 0.4s ease, opacity 0.4s ease;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #fcf1f1;
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
+  .menu a:hover {
+    opacity: 0.8;
+  }
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(153, 76, 76, 0.1);
+  }
+  .card img {
+    width: 220px;
+    margin-bottom: 15px;
+  }
+  .titulo {
+    color: #d62828;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  .rating {
+    color: gold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .rating span {
+    color: #333;
+    font-weight: bold;
+  }
+  .precio {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .ingredientes {
+    list-style: none;
+    text-align: left;
+    margin: 15px auto;
+    max-width: 300px;
+  }
+  .ingredientes li {
+    margin: 5px 0;
+  }
+  .acciones {
+    margin-top: 20px;
+  }
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+  }
+  .btn.comprar {
+    background: #d62828;
+    color: #fff;
+  }
+  .btn.comprar:hover {
+    background: #0e0909;
+  }
 
-.btn.carrito { background: #51c026; color: #000; }
-.btn.carrito:hover { background: #cac7bc; }
-}
+  .btn.carrito {
+    background: #51c026;
+    color: #000;
+  }
+  .btn.carrito:hover {
+    background: #cac7bc;
+  }
+
 footer {
   background: #222;
   color: #fff;
