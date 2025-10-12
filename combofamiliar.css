@@ -124,6 +124,7 @@
   }
   .btn.comprar:hover {
     background: #0e0909;
+    transform: scale(1.1);
   }
 
   .btn.carrito {
