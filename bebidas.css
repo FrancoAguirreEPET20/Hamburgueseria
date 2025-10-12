@@ -66,6 +66,7 @@ body {
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .footer {
