@@ -26,6 +26,11 @@ body {
     margin: 0 auto;
 }
 
+.car:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(218, 229, 5, 0.25);
+}
+
 .card img {
     width: 200px; 
     height: auto;
