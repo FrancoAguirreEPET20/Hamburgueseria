@@ -1,3 +1,4 @@
+@import url(style.css);
 *{
     margin: 0;
     padding: 0;
@@ -7,36 +8,6 @@
 body {
     background-color: #fffaf0;
     color: #333;
-}
-
-header {
-    background-color: #ff6600;
-    padding: 15px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav img{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-nav ul li a {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
 }
 
 .ingredientes {
