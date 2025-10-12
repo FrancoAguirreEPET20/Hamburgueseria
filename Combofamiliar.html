@@ -13,20 +13,24 @@
                 <img src="imagenes/logo.jpeg" alt="LOGO">
                 <h2>Hamburguesas Neuquen</h2> 
             </div>
-
-            <ul class="menu">
+            
+      <label for="menu-toggle" class="menu-btn">&#9776;</label>
+  <input type="checkbox" id="menu-toggle" />
+  <nav class="side-menu">
+    <label for="menu-toggle" class="close-btn">&times;</label>
+      <ul>
                 <li><a href="inicio index.html">inicio</a></li> 
                 <li><a href="Hamburguesas.html">Hamburguesas</a></li>
                <li><a href="Bebidas.html"></a>Bebidas</li>
                <li><a href="Papas.html">Papas Fritas</a></li>
                 <li><a href="#">Mi carrito</a></li>
-        </ul>
+      </ul>
     </nav>
   </header>
 
-  <main class="grid-container">
+  <main class="grid-container mostrar">
     <section class="card">
-                    <img src="imagenes/combo familiar.jpeg" alt="Combo familiar">
+                    <img src="imagenes/combofamiliar.png" alt="Combo familiar" class="mostrar">
                     <h2 class="titulo">Combo Familiar</h2>
       <p class="rating">★★★★★ <span>4,8</span></p>
       <h3 class="precio">$4000</h3>
@@ -45,13 +49,13 @@
         <li>1 botella de 1.5 litros de gaseosa</li>
       </ul>
       <div class="acciones">
-        <button class="btn comprar">Comprar Ahora</button>
-        <button class="btn carrito">Agregar al carrito</button>
+        <button class="btn comprar animar">Comprar Ahora</button>
+        <button class="btn carrito animar">Agregar al carrito</button>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="resaltar">
     <p>© 2025 Hamburguesas Neuquén - Todos los derechos reservados</p>
   </footer>
 </body>
