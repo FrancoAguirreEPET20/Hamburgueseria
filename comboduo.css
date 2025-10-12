@@ -119,6 +119,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 .btn.comprar {
   background: #d62828;
