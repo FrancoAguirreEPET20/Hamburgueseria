@@ -1,4 +1,4 @@
-@import url(style2.css);
+@import url(style.css);
 * {
   margin: 0;
   padding: 0;
@@ -6,48 +6,8 @@
 }
 body {
   font-family: Arial, sans-serif;
-  background: hsl(40, 4%, 15%);
+  background: hsl(43, 33%, 96%);
   color: #0a0404;
-}
-header {
-  background: #be2e2e;
-  color: #ebe4e4;
-  padding: 20px 30px;
-}
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.logo img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-     transition: transform 0.4s ease, opacity 0.4s ease;
-  }
-
-  .logo img:hover {
-  transform: scale(1.1) rotate(5deg);
-  opacity: 0.9;
-}
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-.menu a {
-  text-decoration: none;
-  color: #fcf1f1;
-  font-weight: bold;
-  transition: 0.3s;
-}
-.menu a:hover {
-  opacity: 0.8;
 }
 
 .grid-container {

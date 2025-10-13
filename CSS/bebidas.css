@@ -69,6 +69,11 @@ body {
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
+.btn:hover {
+    background-color: #200b03;
+    transform: scale(1.05);
+}
+
 .mostrar {
     opacity: 0;
     transform: translateY(20px);

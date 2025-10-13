@@ -75,6 +75,3 @@ button:hover {
   transition: box-shadow 0.3s ease;  
 }  
 
-.resaltar:hover {  
-  box-shadow: 0 0 25px rgba(255, 204, 0, 0.9);  
-}
