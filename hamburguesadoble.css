@@ -31,21 +31,7 @@ header {
   border-radius: 50%;
   transition: transform 0.4s ease, opacity 0.4s ease;
 }
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-.menu a {
-  text-decoration: none;
-  color: #5f5454;
-  font-weight: bold;
-  transition: opacity 0.3s;
-}
 
-.menu a:hover {
-  opacity: 0.8;
-}
 .grid-container {
   display: flex;
   justify-content: center;
