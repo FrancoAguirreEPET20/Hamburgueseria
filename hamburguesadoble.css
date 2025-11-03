@@ -149,3 +149,6 @@ header {
     transform: translateY(0);
   }
 }
+.resaltar {
+  animation: parpadeo 1.5s infinite alternate;
+}
