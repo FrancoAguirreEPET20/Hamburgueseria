@@ -130,3 +130,7 @@ header {
   background: #51c026;
   color: #000;
 }
+.btn.carrito:hover {
+  background: #cac7bc;
+  transform: scale(1.1);
+}
