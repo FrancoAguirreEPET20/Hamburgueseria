@@ -152,3 +152,7 @@ header {
 .resaltar {
   animation: parpadeo 1.5s infinite alternate;
 }
+@keyframes parpadeo {
+  from { box-shadow: 0 0 5px #d62828; }
+  to { box-shadow: 0 0 20px #d62828; }
+}
