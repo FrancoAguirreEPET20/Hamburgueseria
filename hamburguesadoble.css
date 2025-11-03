@@ -15,11 +15,7 @@ header {
   color: #ddd6d6;
   padding: 20px 30px;
 }
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 
 
 .grid-container {
