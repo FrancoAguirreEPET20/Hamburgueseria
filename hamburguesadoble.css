@@ -122,3 +122,7 @@ header {
   background: #d62828;
   color: #fff;
 }
+.btn.comprar:hover {
+  background: #0e0909;
+  transform: scale(1.1);
+}
