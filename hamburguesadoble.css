@@ -10,14 +10,6 @@ body {
   color: #d9d2d2;
   background-color: #252525;
 }
-header {
-  background: #be2e2e;
-  color: #ddd6d6;
-  padding: 20px 30px;
-}
-
-
-
 .grid-container {
   display: flex;
   justify-content: center;
