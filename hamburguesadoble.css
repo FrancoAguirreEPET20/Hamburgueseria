@@ -4,11 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
-  background: hsl(40, 9%, 94%);
-  color: #d9d2d2;
-  background-color: #252525;
+  background: hsl(40, 12%, 90%);
+  color: #0a0404;
 }
 .grid-container {
   display: flex;
