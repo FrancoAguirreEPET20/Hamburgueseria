@@ -134,10 +134,12 @@ header {
   background: #cac7bc;
   transform: scale(1.1);
 }
-
-
-
 .animar {
   animation: flotar s infinite ease-in-out;
   
+}
+.mostrar {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 0.8s forwards;
 }
