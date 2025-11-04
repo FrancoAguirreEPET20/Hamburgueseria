@@ -3,19 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contacto</title>
-  <link rel="stylesheet" href="CSS/contacto.css" />
+  <title>Contacto | Hamburguesas Neuquén</title>
+  <link rel="stylesheet" href="contacto.css" />
+  <script src="https://kit.fontawesome.com/a2d9d5df7e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  
   <header>
-    <div class="nav">
-      <div class="logo">
-        <img src="imagenes/logo.jpeg" alt="Logo" />
-        <h1>Hamburguesas Neuquén</h1>
-      </div>
-      <label for="menu-toggle" class="menu-btn">&#9776;</label>
+    <div class="logo">
+      <img src="imagenes/logo.jpeg" alt="Logo Hamburguesas" />
+      <h1>Hamburguesas Neuquén</h1>
     </div>
   </header>
 
@@ -23,26 +20,38 @@
   <nav class="side-menu">
     <label for="menu-toggle" class="close-btn">&times;</label>
     <ul>
-      <li><a href="index.html">Inicio</a></li>
+      <li><a href="inicio index.html">Inicio</a></li>
       <li><a href="Hamburguesas.html">Hamburguesas</a></li>
       <li><a href="Papas.html">Papas Fritas</a></li>
       <li><a href="Bebidas.html">Bebidas</a></li>
-      <li><a href="Contacto.html">Contacto</a></li>
+      <li><a href="Contacto.html" class="activo">Contacto</a></li>
       <li><a href="#">Mi carrito</a></li>
     </ul>
   </nav>
 
-  <main style="padding: 20px;">
-    <h2>Soporte / Contacto</h2>
-    <p>Teléfono: +54 9 2995 18-9281</p>
-    <p><a href="tel:+5492995189281">Llamar ahora</a></p>
-    <p><a href="sms:+5492995189281">Enviar SMS</a></p>
-    <p>Tipo: Soporte técnico</p>
+  <main>
+    <div class="container animar">
+      <h2><i class="fas fa-headset"></i> Contacto y Soporte</h2>
+      <p>¿Necesitás ayuda con tu pedido? ¡Estamos para atenderte!</p>
+
+      <div class="info">
+        <p><i class="fas fa-phone"></i> <strong>Teléfono:</strong> +54 9 2995 18-9281</p>
+        <p><i class="fas fa-user-cog"></i> <strong>Tipo:</strong> Soporte técnico</p>
+      </div>
+
+      <div class="acciones">
+        <a href="tel:+5492995189281"><i class="fas fa-phone-alt"></i> Llamar ahora</a>
+        <a href="sms:+5492995189281"><i class="fas fa-sms"></i> Enviar SMS</a>
+        <a href="mailto:soporte@hamburguesasneuquen.com"><i class="fas fa-envelope"></i> Enviar Email</a>
+      </div>
+    </div>
   </main>
 
+
   <footer>
-    <p>Gracias por su atención</p>
+    <p>2025 Hamburguesas Neuquén. Todos los derechos reservados.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
