@@ -39,3 +39,11 @@ listaCarrito.addEventListener('input', (e) => {
     renderCarrito();
   }
 });
+
+listaCarrito.addEventListener('click', (e) => {
+  if (e.target.classList.contains('eliminar')) {
+    const index = e.target.dataset.index;
+    carrito.splice(index, 1);
+    renderCarrito();
+  }
+});
