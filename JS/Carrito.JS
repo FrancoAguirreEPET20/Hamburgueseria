@@ -52,3 +52,5 @@ vaciarBtn.addEventListener('click', () => {
   carrito = [];
   renderCarrito();
 });
+
+renderCarrito();
