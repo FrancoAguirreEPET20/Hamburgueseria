@@ -47,3 +47,8 @@ listaCarrito.addEventListener('click', (e) => {
     renderCarrito();
   }
 });
+
+vaciarBtn.addEventListener('click', () => {
+  carrito = [];
+  renderCarrito();
+});
