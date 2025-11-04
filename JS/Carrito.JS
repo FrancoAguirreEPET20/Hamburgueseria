@@ -7,3 +7,7 @@ let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 function renderCarrito() {
   listaCarrito.innerHTML = '';
   let total = 0;
+
+    carrito.forEach((producto, index) => {
+    const subtotal = producto.precio * producto.cantidad;
+    total += subtotal;
