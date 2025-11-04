@@ -1,68 +1,135 @@
 @import url(style.css);
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff; 
   color: #000;
 }
 
-/* 🟡 Header fijo arriba */
+.menu-btn {
+  font-size: 2rem;
+  color: #ffcc00; 
+  cursor: pointer;
+  user-select: none;
+  padding: 0 15px;
+}
+
+
+/* 🟡 HEADER */
 header {
   background: #000;
   color: #fff;
   text-align: center;
   padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
-header img {
-  width: 50px;
+
+header .logo img {
+  width: 60px;
   vertical-align: middle;
+  border-radius: 0;  
 }
+
 
 header h1 {
   display: inline-block;
   margin: 0 10px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  color: #fff;  /* blanco */
   vertical-align: middle;
+  letter-spacing: 1px;
 }
 
-/* 🟡 Contenedor principal centrado */
+
+/* 🟡 MAIN */
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 100px); /* Resta el alto del header */
+  min-height: calc(100vh - 140px);
+  padding: 20px;
 }
 
 .container {
   background: #fff;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
   text-align: center;
   width: 90%;
   max-width: 500px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.container a {
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.container h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.info p {
+  margin: 8px 0;
+}
+
+.acciones a {
   display: inline-block;
-  margin: 8px;
-  text-decoration: none;
-  padding: 10px 15px;
-  border-radius: 6px;
+  margin: 10px;
+  padding: 12px 18px;
+  border-radius: 8px;
   background: #000;
   color: #fff;
   font-weight: bold;
+  text-decoration: none;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.container a:hover {
-  background: #333;
+.acciones a:hover {
+  background: #ffcc00;
+  color: #000;
   transform: scale(1.05);
 }
 
+i {
+  margin-right: 6px;
+  color: #e67e22;
+}
+
 footer {
-  margin-top: 15px;
-  color: #555;
-  font-size: 0.9rem;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.animar {
+  opacity: 0;
+  transform: translateY(15px);
+  animation: aparecer 0.8s ease forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
