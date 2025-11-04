@@ -34,27 +34,35 @@
 
   
   <main style="padding: 20px;">
-    <h2>Seleccione sus papas preferidas:</h2>
+     <h2>Seleccione sus papas preferidas:</h2>
 
-    <section style="margin-bottom: 30px;">
-      <img src="imagenes/papas_fritas.jpg" alt="Papas fritas" height="300" width="300" />
-      <h3>Papas fritas</h3>
-      <p>$1500</p>
-      <button>Comprar</button>
-    </section>
+    <section class="productos">
 
-    <section style="margin-bottom: 30px;">
-      <img src="imagenes/papas_fritas_queso.jpg" alt="Papas con queso cheddar" height="300" width="300" />
-      <h3>Papas fritas con queso cheddar</h3>
-      <p>$2500</p>
-      <button>Comprar</button>
-    </section>
+        <div class="producto">
+            <img src="Imágenes/papas_fritas.jpg" height="300" width="300" alt="Papas fritas">
+            <h3>Papas fritas</h3>
+            <p>$1500</p>
+            <button onclick="agregarAlCarrito('Papas fritas', 1500, 'Imágenes/papas_fritas.jpg')">
+                Agregar al carrito
+            </button>
+        </div>
 
-    <section style="margin-bottom: 30px;">
-      <img src="imagenes/papas_huevos.webp" alt="Papas con huevos revueltos" height="300" width="300" />
-      <h3>Papas fritas con huevos revueltos</h3>
-      <p>$4000</p>
-      <button>Comprar</button>
+        <div class="producto">
+            <img src="Imágenes/papas_fritas_queso.jpg" height="300" width="300" alt="Papas fritas con queso">
+            <h3>Papas fritas con queso cheddar</h3>
+            <p>$2500</p>
+            <button onclick="agregarAlCarrito('Papas fritas con queso cheddar', 2500, 'Imágenes/papas_fritas_queso.jpg')">
+                Agregar al carrito
+            </button>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/huevos-revueltos-18754458.webp" height="300" width="300" alt="Papas con huevo">
+            <h3>Papas fritas con huevo revueltos</h3>
+            <p>$4000</p>
+            <button onclick="agregarAlCarrito('Papas fritas con huevo revueltos', 4000, 'Imágenes/papas_huevos.webp')">
+                Agregar al carrito
+            </button>
     </section>
      <script src="carrito_funcion.js"></script>
   </main>
