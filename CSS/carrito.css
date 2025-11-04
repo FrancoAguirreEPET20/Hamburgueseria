@@ -60,3 +60,16 @@ header {
   text-align: right;
   margin-top: 20px;
 }
+
+button {
+  background: #1d3557;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000;
+}
