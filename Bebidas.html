@@ -23,7 +23,7 @@
                 <li><a href="Hamburguesas.html">Hamburguesas</a></li>
                <li><a href="Bebidas.html">Bebidas</a></li>
                <li><a href="Papas.html">Papas Fritas</a></li>
-                <li><a href="#">Mi carrito</a></li>
+                <li><a href="Carrito.html">Mi carrito</a></li>
       </ul>
     </nav>
   </header>
@@ -31,32 +31,41 @@
         <section class="grid-container">
             <div class="card mostrar">
                 <img src="imagenes/descargar.jpg" height="300" width="300">
-                <h2>Coca cola</h2>
+                <h2>Pepsi</h2>
                 <p>$1100</p>
-                <button class="btn">Comprar</button>
+                <button class="btn" onclick="agregarAlCarrito('Coca Cola', 1100, 'imagenes/descargar.jpg')">
+                    Agregar al carrito
+                </button>
             </div>
             <div class="card mostrar">
                 <img src="imagenes/fanta.jpg" height="300" width="300">
                 <h2>Fanta</h2>
                 <p>$1100</p>
-                <button class="btn">Comprar</button>
+                <button class="btn" onclick="agregarAlCarrito('Fanta', 1100, 'imagenes/fanta.jpg')">
+                    Agregar al carrito
+                </button>
             </div>
             <div class="card mostrar">
                 <img src="imagenes/sprite-50001-a35e58152ec4defb7b16897062507108-1024-1024.jpg" height="300" width="300">
-                <h2>Fanta</h2>
+                <h2>Sprite</h2>
                 <p>$1100</p>
-                <button class="btn">Comprar</button>
+                <button class="btn" onclick="agregarAlCarrito('Sprite', 1100, 'imagenes/sprite-50001-a35e58152ec4defb7b16897062507108-1024-1024.jpg')">
+                    Agregar al carrito
+                </button>
             </div>
             <div class="card mostrar">
                 <img src="imagenes/descargar (5).jpg" height="300" width="300">
                 <h2>Agua (Sin gas)</h2>
                 <p>$800</p>
-                <button class="btn">Comprar</button>
+                <button class="btn" onclick="agregarAlCarrito('Agua sin gas', 800, 'imagenes/descargar (5).jpg')">
+                    Agregar al carrito
+                </button>
             </div>
         </section>
     </main>
     <footer class="footer">
         <p> 2025 Hamburguesas Neuquén - Todos los derechos reservados</p>
     </footer>
+    <script src="JS/Carrito_funcion.JS"></script>
 </body>
 </html>
