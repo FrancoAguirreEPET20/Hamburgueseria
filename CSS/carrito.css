@@ -45,3 +45,18 @@ header {
   width: 80px;
   border-radius: 10px;
 }
+
+.info {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.cantidad input {
+  width: 50px;
+  text-align: center;
+}
+
+.carrito-total {
+  text-align: right;
+  margin-top: 20px;
+}
