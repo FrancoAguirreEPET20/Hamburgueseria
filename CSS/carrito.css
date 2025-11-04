@@ -40,3 +40,8 @@ header {
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
 }
+
+.item-carrito img {
+  width: 80px;
+  border-radius: 10px;
+}
