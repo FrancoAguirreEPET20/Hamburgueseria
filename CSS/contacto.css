@@ -15,7 +15,6 @@ body {
 }
 
 
-/* 🟡 HEADER */
 header {
   background: #000;
   color: #fff;
@@ -36,13 +35,13 @@ header h1 {
   display: inline-block;
   margin: 0 10px;
   font-size: 1.6rem;
-  color: #fff;  /* blanco */
+  color: #fff;  
   vertical-align: middle;
   letter-spacing: 1px;
 }
 
 
-/* 🟡 MAIN */
+
 main {
   display: flex;
   justify-content: center;
