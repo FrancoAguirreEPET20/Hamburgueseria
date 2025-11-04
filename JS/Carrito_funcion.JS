@@ -8,3 +8,7 @@ function agregarAlCarrito(nombre, precio, imagen) {
   } else {
     carrito.push({ nombre, precio, imagen, cantidad: 1 });
   }
+
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+  alert(`${nombre} agregado al carrito 🛒`);
+}
