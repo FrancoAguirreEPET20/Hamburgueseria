@@ -42,9 +42,17 @@
       <div class="acciones">
         <a href="tel:+5492995189281"><i class="fas fa-phone-alt"></i> Llamar ahora</a>
         <a href="sms:+5492995189281"><i class="fas fa-sms"></i> Enviar SMS</a>
-        <a href="mailto:soporte@hamburguesasneuquen.com"><i class="fas fa-envelope"></i> Enviar Email</a>
+        <a href="mail:soporte@hamburguesasneuquen.com"><i class="fas fa-envelope"></i> Enviar Email</a>
       </div>
     </div>
+    <script>
+  const menuIcon = document.getElementById("menu-icon");
+  const navLinks = document.getElementById("nav-links");
+
+  menuIcon.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
   </main>
 
 
