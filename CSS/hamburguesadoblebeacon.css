@@ -74,16 +74,6 @@ body {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s
 }
 
-.btn-comprar {
-    background-color: #0b0804;
-    color: white;
-}
-
-.btn-comprar:hover {
-    background-color: #2c2a23;
-    transform: scale(1.05);
-}
-
 .btn-carrito {
     background-color: #1a1811; 
     color: whitesmoke;

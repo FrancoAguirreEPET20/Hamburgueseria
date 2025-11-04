@@ -11,7 +11,7 @@
     <nav class="nav">
       <div class="logo">
         <img src="imagenes/logo.jpeg" alt="LOGO">
-        <h1>Hamburguesas Neuquén</h1>
+        <h1 href="index.html">Hamburguesas Neuquén</h1>
       </div>
       <label for="menu-toggle" class="menu-btn">☰</label>
     </nav>
@@ -23,7 +23,7 @@
         <li><a href="Hamburguesas.html">Hamburguesas</a></li>
         <li><a href="Papas.html">Papas Fritas</a></li>
         <li><a href="Bebidas.html">Bebidas</a></li>
-        <li><a href="#">Mi carrito</a></li>
+        <li><a href="Carrito.html">Mi carrito</a></li>
       </ul>
     </div>
   </header>
@@ -43,11 +43,11 @@
                 </ul>
         </div>
         <div class="botones">
-        <button class="btn btn-comprar">Comprar Ahora</button>
-        <button class="btn btn-carrito">Agregar al carrito</button>
+        <button class="btn btn-carrito" onclick="agregarAlCarrito('hamburguesadoblebeacon', 4500, 'imagenes/doble beacon.jpeg')">Agregar al carrito</button>
         </div>
     <footer>
         © 2025 Hamburguesas Neuquén
     </footer>
+    <script src="JS/Carrito_funcion.JS"></script>
 </body>
 </html>
